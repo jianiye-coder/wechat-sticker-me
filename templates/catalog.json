@@ -106,7 +106,8 @@
           "meaning": "溜了",
           "action": "侧身跑走回头看"
         }
-      ]
+      ],
+      "example_image": "assets/examples/soft-daily.png"
     },
     {
       "id": "drama-club",
@@ -188,7 +189,8 @@
           "meaning": "溜了",
           "action": "头发飘起急忙跑开"
         }
-      ]
+      ],
+      "example_image": "assets/examples/drama-club.png"
     },
     {
       "id": "cool-replies",
@@ -270,7 +272,8 @@
           "meaning": "走了",
           "action": "背身挥手"
         }
-      ]
+      ],
+      "example_image": "assets/examples/cool-replies.png"
     },
     {
       "id": "office-life",
@@ -352,7 +355,8 @@
           "meaning": "休息中",
           "action": "躺椅抱枕放松"
         }
-      ]
+      ],
+      "example_image": "assets/examples/office-life.png"
     },
     {
       "id": "sweet-company",
@@ -434,7 +438,8 @@
           "meaning": "陪着你",
           "action": "抱着心形靠垫安静坐下"
         }
-      ]
+      ],
+      "example_image": "assets/examples/sweet-company.png"
     },
     {
       "id": "cozy-journal",
@@ -516,7 +521,8 @@
           "meaning": "明天见",
           "action": "回头挥手"
         }
-      ]
+      ],
+      "example_image": "assets/examples/cozy-journal.png"
     },
     {
       "id": "clay-moods",
@@ -598,7 +604,8 @@
           "meaning": "溜了",
           "action": "头发飘起急忙跑开"
         }
-      ]
+      ],
+      "example_image": "assets/examples/clay-moods.png"
     },
     {
       "id": "pixel-daily",
@@ -680,7 +687,8 @@
           "meaning": "溜了",
           "action": "侧身跑走回头看"
         }
-      ]
+      ],
+      "example_image": "assets/examples/pixel-daily.png"
     }
   ]
 }
