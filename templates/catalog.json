@@ -1,0 +1,686 @@
+{
+  "styles": {
+    "chibi": {
+      "name": "软萌Q版",
+      "prompt": "大头小身、柔和暖色、自然深色眼睛、干净线条和轻柔阴影；保留参考人物的辨识特征，不把所有人物变成同一张动漫脸。"
+    },
+    "comic": {
+      "name": "夸张漫画",
+      "prompt": "粗细有变化的漫画线条、明显眉眼嘴变化、夸张手势和运动线；同一人物的脸型、发型及服装始终一致。"
+    },
+    "minimal": {
+      "name": "极简冷脸",
+      "prompt": "简洁扁平色块、少量清楚轮廓、克制配色与半睁眼神；依靠发型轮廓和眉眼保留身份，不用小字解释情绪。"
+    },
+    "doodle": {
+      "name": "手帐涂鸦",
+      "prompt": "轻微不规则的手绘线条、柔和铅笔质感、少量彩色涂鸦；主体完整清晰，纹理不变成透明边缘噪点。"
+    },
+    "clay": {
+      "name": "黏土玩偶",
+      "prompt": "圆润黏土玩偶、柔和哑光材质、简洁立体造型、柔光；保留人物辨识特征，避免复杂投影影响透明背景。"
+    },
+    "pixel": {
+      "name": "复古像素",
+      "prompt": "清晰像素块、有限色板和完整轮廓，以发型、服装和脸部特征保持辨识度；避免过细配字，按整数倍率制作并在最终尺寸检查。"
+    }
+  },
+  "templates": [
+    {
+      "id": "soft-daily",
+      "name": "软萌日常",
+      "style": "chibi",
+      "pack": "daily",
+      "tone": "温柔亲切，适合朋友家人通用",
+      "title_example": "小情绪营业中",
+      "description_example": "把每天的小情绪装进聊天框，软萌日常陪你聊天。",
+      "cover_direction": "招手微笑，配一颗小爱心",
+      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
+      "trial": [
+        "开心",
+        "生气",
+        "疑惑"
+      ],
+      "stickers": [
+        {
+          "meaning": "开心",
+          "action": "挥手露齿笑"
+        },
+        {
+          "meaning": "收到",
+          "action": "点头竖拇指"
+        },
+        {
+          "meaning": "抱抱",
+          "action": "张开双臂"
+        },
+        {
+          "meaning": "谢谢",
+          "action": "微微鞠躬双手合十"
+        },
+        {
+          "meaning": "疑惑",
+          "action": "歪头托腮"
+        },
+        {
+          "meaning": "生气",
+          "action": "抱臂鼓脸"
+        },
+        {
+          "meaning": "委屈",
+          "action": "低头撇嘴"
+        },
+        {
+          "meaning": "加油",
+          "action": "握拳向上"
+        },
+        {
+          "meaning": "晚安",
+          "action": "抱枕闭眼"
+        },
+        {
+          "meaning": "好呀",
+          "action": "轻快点头"
+        },
+        {
+          "meaning": "等等",
+          "action": "伸掌示意停一下"
+        },
+        {
+          "meaning": "拜托",
+          "action": "期待眼神双手合十"
+        },
+        {
+          "meaning": "来了",
+          "action": "小跑挥手"
+        },
+        {
+          "meaning": "辛苦啦",
+          "action": "递一杯水"
+        },
+        {
+          "meaning": "好困",
+          "action": "捂嘴打哈欠"
+        },
+        {
+          "meaning": "溜了",
+          "action": "侧身跑走回头看"
+        }
+      ]
+    },
+    {
+      "id": "drama-club",
+      "name": "情绪小剧场",
+      "style": "comic",
+      "pack": "drama",
+      "tone": "夸张有戏，朋友群聊天反应",
+      "title_example": "今天也很有戏",
+      "description_example": "把每天的小情绪装进聊天框，情绪小剧场陪你聊天。",
+      "cover_direction": "鼓脸挑眉，小拳头贴脸",
+      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
+      "trial": [
+        "开心",
+        "生气",
+        "疑惑"
+      ],
+      "stickers": [
+        {
+          "meaning": "震惊",
+          "action": "双手捧脸嘴巴张大"
+        },
+        {
+          "meaning": "偷笑",
+          "action": "侧眼捂嘴"
+        },
+        {
+          "meaning": "无语",
+          "action": "半睁眼摊手"
+        },
+        {
+          "meaning": "抓狂",
+          "action": "双手抓头发"
+        },
+        {
+          "meaning": "得意",
+          "action": "叉腰抬下巴"
+        },
+        {
+          "meaning": "吃瓜",
+          "action": "抱西瓜探头"
+        },
+        {
+          "meaning": "累瘫",
+          "action": "趴桌眼神放空"
+        },
+        {
+          "meaning": "撒娇",
+          "action": "扯袖子鼓脸"
+        },
+        {
+          "meaning": "生气",
+          "action": "抱臂鼓脸"
+        },
+        {
+          "meaning": "疑惑",
+          "action": "歪头摸下巴"
+        },
+        {
+          "meaning": "抱抱",
+          "action": "张开双臂笑"
+        },
+        {
+          "meaning": "救命",
+          "action": "双手举起慌张"
+        },
+        {
+          "meaning": "不听",
+          "action": "捂住耳朵"
+        },
+        {
+          "meaning": "笑疯",
+          "action": "弯腰大笑"
+        },
+        {
+          "meaning": "我裂开",
+          "action": "抱头眼神呆滞"
+        },
+        {
+          "meaning": "溜了",
+          "action": "头发飘起急忙跑开"
+        }
+      ]
+    },
+    {
+      "id": "cool-replies",
+      "name": "冷脸吐槽",
+      "style": "minimal",
+      "pack": "deadpan",
+      "tone": "克制冷幽默，不使用辱骂语气",
+      "title_example": "脸上写着随便",
+      "description_example": "把每天的小情绪装进聊天框，冷脸吐槽陪你聊天。",
+      "cover_direction": "半睁眼单手托腮",
+      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
+      "trial": [
+        "开心",
+        "生气",
+        "疑惑"
+      ],
+      "stickers": [
+        {
+          "meaning": "嗯",
+          "action": "面无表情点头"
+        },
+        {
+          "meaning": "行吧",
+          "action": "无奈歪头"
+        },
+        {
+          "meaning": "就这",
+          "action": "半睁眼挑眉"
+        },
+        {
+          "meaning": "随便",
+          "action": "单手摊开"
+        },
+        {
+          "meaning": "不想动",
+          "action": "躺平看天"
+        },
+        {
+          "meaning": "已读",
+          "action": "看手机抬眼"
+        },
+        {
+          "meaning": "无语",
+          "action": "平嘴看向一侧"
+        },
+        {
+          "meaning": "懂了",
+          "action": "扶额点头"
+        },
+        {
+          "meaning": "等等",
+          "action": "伸手挡住"
+        },
+        {
+          "meaning": "不懂",
+          "action": "双手摊开"
+        },
+        {
+          "meaning": "挺好",
+          "action": "面无表情竖拇指"
+        },
+        {
+          "meaning": "算了",
+          "action": "摆手转身"
+        },
+        {
+          "meaning": "饿了",
+          "action": "抱碗看空碗"
+        },
+        {
+          "meaning": "困了",
+          "action": "眼皮垂下抱枕"
+        },
+        {
+          "meaning": "谢谢",
+          "action": "略低头双手接礼物"
+        },
+        {
+          "meaning": "走了",
+          "action": "背身挥手"
+        }
+      ]
+    },
+    {
+      "id": "office-life",
+      "name": "打工日常",
+      "style": "chibi",
+      "pack": "work",
+      "tone": "礼貌中带疲惫，工作和同事聊天",
+      "title_example": "打工电量不足",
+      "description_example": "把每天的小情绪装进聊天框，打工日常陪你聊天。",
+      "cover_direction": "抱咖啡杯困倦抬眼",
+      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
+      "trial": [
+        "开心",
+        "生气",
+        "疑惑"
+      ],
+      "stickers": [
+        {
+          "meaning": "收到",
+          "action": "坐桌前竖拇指"
+        },
+        {
+          "meaning": "在忙",
+          "action": "盯屏幕敲键盘"
+        },
+        {
+          "meaning": "稍等",
+          "action": "一手打字一手示意稍等"
+        },
+        {
+          "meaning": "好的",
+          "action": "点头拿笔"
+        },
+        {
+          "meaning": "开会",
+          "action": "举起记事本"
+        },
+        {
+          "meaning": "改好了",
+          "action": "递出完成的文稿"
+        },
+        {
+          "meaning": "下班",
+          "action": "合上电脑拎包"
+        },
+        {
+          "meaning": "摸鱼",
+          "action": "缩在椅子里看手机"
+        },
+        {
+          "meaning": "加油",
+          "action": "握拳挺直身体"
+        },
+        {
+          "meaning": "辛苦了",
+          "action": "递水杯"
+        },
+        {
+          "meaning": "好困",
+          "action": "扶着咖啡杯打哈欠"
+        },
+        {
+          "meaning": "没电了",
+          "action": "趴桌放空"
+        },
+        {
+          "meaning": "再想想",
+          "action": "咬笔思考"
+        },
+        {
+          "meaning": "谢谢",
+          "action": "抱文稿鞠躬"
+        },
+        {
+          "meaning": "周五啦",
+          "action": "开心举双手"
+        },
+        {
+          "meaning": "休息中",
+          "action": "躺椅抱枕放松"
+        }
+      ]
+    },
+    {
+      "id": "sweet-company",
+      "name": "甜甜陪伴",
+      "style": "chibi",
+      "pack": "close",
+      "tone": "亲昵可爱，适合亲密关系",
+      "title_example": "想和你贴贴",
+      "description_example": "把每天的小情绪装进聊天框，甜甜陪伴陪你聊天。",
+      "cover_direction": "抱心形靠枕微笑",
+      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
+      "trial": [
+        "开心",
+        "生气",
+        "疑惑"
+      ],
+      "stickers": [
+        {
+          "meaning": "想你",
+          "action": "抱枕望向一侧"
+        },
+        {
+          "meaning": "爱你",
+          "action": "双手比心"
+        },
+        {
+          "meaning": "贴贴",
+          "action": "脸颊靠近一颗心"
+        },
+        {
+          "meaning": "抱抱",
+          "action": "张开双臂"
+        },
+        {
+          "meaning": "亲亲",
+          "action": "闭眼嘟嘴"
+        },
+        {
+          "meaning": "等你",
+          "action": "托腮看时钟"
+        },
+        {
+          "meaning": "不嘛",
+          "action": "捏袖口轻轻摇头"
+        },
+        {
+          "meaning": "哄我",
+          "action": "鼓脸伸手"
+        },
+        {
+          "meaning": "心动",
+          "action": "捧脸脸红"
+        },
+        {
+          "meaning": "好乖",
+          "action": "温柔伸手摸摸的动作"
+        },
+        {
+          "meaning": "晚安",
+          "action": "抱心形枕头入睡"
+        },
+        {
+          "meaning": "早呀",
+          "action": "伸懒腰挥手"
+        },
+        {
+          "meaning": "吃饭啦",
+          "action": "端碗招手"
+        },
+        {
+          "meaning": "谢谢你",
+          "action": "珍惜地抱住小礼物"
+        },
+        {
+          "meaning": "听你的",
+          "action": "点头轻笑"
+        },
+        {
+          "meaning": "陪着你",
+          "action": "抱着心形靠垫安静坐下"
+        }
+      ]
+    },
+    {
+      "id": "cozy-journal",
+      "name": "手帐慢生活",
+      "style": "doodle",
+      "pack": "cozy",
+      "tone": "轻松温暖，日常记录和问候",
+      "title_example": "慢一点也很好",
+      "description_example": "把每天的小情绪装进聊天框，手帐慢生活陪你聊天。",
+      "cover_direction": "捧茶杯微笑，少量手绘星星",
+      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
+      "trial": [
+        "开心",
+        "生气",
+        "疑惑"
+      ],
+      "stickers": [
+        {
+          "meaning": "早呀",
+          "action": "伸懒腰挥手"
+        },
+        {
+          "meaning": "干饭",
+          "action": "端碗举勺"
+        },
+        {
+          "meaning": "喝茶",
+          "action": "双手捧杯"
+        },
+        {
+          "meaning": "晒太阳",
+          "action": "仰脸闭眼放松"
+        },
+        {
+          "meaning": "慢慢来",
+          "action": "轻轻摆手微笑"
+        },
+        {
+          "meaning": "发呆",
+          "action": "托腮望远"
+        },
+        {
+          "meaning": "散步去",
+          "action": "背小包抬脚"
+        },
+        {
+          "meaning": "好舒服",
+          "action": "裹毯窝着"
+        },
+        {
+          "meaning": "下雨啦",
+          "action": "撑小伞"
+        },
+        {
+          "meaning": "抱抱",
+          "action": "抱心形软枕"
+        },
+        {
+          "meaning": "开心",
+          "action": "踮脚张开手"
+        },
+        {
+          "meaning": "谢谢",
+          "action": "抱花轻点头"
+        },
+        {
+          "meaning": "好困",
+          "action": "捂嘴打哈欠"
+        },
+        {
+          "meaning": "晚安",
+          "action": "抱枕闭眼"
+        },
+        {
+          "meaning": "歇一会",
+          "action": "坐地抱膝放松"
+        },
+        {
+          "meaning": "明天见",
+          "action": "回头挥手"
+        }
+      ]
+    },
+    {
+      "id": "clay-moods",
+      "name": "黏土小情绪",
+      "style": "clay",
+      "pack": "drama",
+      "tone": "圆润立体，夸张反应但保持亲切",
+      "title_example": "小脾气捏出来",
+      "description_example": "把每天的小情绪装进聊天框，黏土小情绪陪你聊天。",
+      "cover_direction": "黏土小人鼓脸叉腰",
+      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
+      "trial": [
+        "开心",
+        "生气",
+        "疑惑"
+      ],
+      "stickers": [
+        {
+          "meaning": "震惊",
+          "action": "双手捧脸嘴巴张大"
+        },
+        {
+          "meaning": "偷笑",
+          "action": "侧眼捂嘴"
+        },
+        {
+          "meaning": "无语",
+          "action": "半睁眼摊手"
+        },
+        {
+          "meaning": "抓狂",
+          "action": "双手抓头发"
+        },
+        {
+          "meaning": "得意",
+          "action": "叉腰抬下巴"
+        },
+        {
+          "meaning": "吃瓜",
+          "action": "抱西瓜探头"
+        },
+        {
+          "meaning": "累瘫",
+          "action": "趴桌眼神放空"
+        },
+        {
+          "meaning": "撒娇",
+          "action": "扯袖子鼓脸"
+        },
+        {
+          "meaning": "生气",
+          "action": "抱臂鼓脸"
+        },
+        {
+          "meaning": "疑惑",
+          "action": "歪头摸下巴"
+        },
+        {
+          "meaning": "抱抱",
+          "action": "张开双臂笑"
+        },
+        {
+          "meaning": "救命",
+          "action": "双手举起慌张"
+        },
+        {
+          "meaning": "不听",
+          "action": "捂住耳朵"
+        },
+        {
+          "meaning": "笑疯",
+          "action": "弯腰大笑"
+        },
+        {
+          "meaning": "我裂开",
+          "action": "抱头眼神呆滞"
+        },
+        {
+          "meaning": "溜了",
+          "action": "头发飘起急忙跑开"
+        }
+      ]
+    },
+    {
+      "id": "pixel-daily",
+      "name": "像素日常",
+      "style": "pixel",
+      "pack": "daily",
+      "tone": "复古简短，清楚可读的聊天回应",
+      "title_example": "像素心情加载中",
+      "description_example": "把每天的小情绪装进聊天框，像素日常陪你聊天。",
+      "cover_direction": "像素小人招手，配一个像素爱心",
+      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
+      "trial": [
+        "开心",
+        "生气",
+        "疑惑"
+      ],
+      "stickers": [
+        {
+          "meaning": "开心",
+          "action": "挥手露齿笑"
+        },
+        {
+          "meaning": "收到",
+          "action": "点头竖拇指"
+        },
+        {
+          "meaning": "抱抱",
+          "action": "张开双臂"
+        },
+        {
+          "meaning": "谢谢",
+          "action": "微微鞠躬双手合十"
+        },
+        {
+          "meaning": "疑惑",
+          "action": "歪头托腮"
+        },
+        {
+          "meaning": "生气",
+          "action": "抱臂鼓脸"
+        },
+        {
+          "meaning": "委屈",
+          "action": "低头撇嘴"
+        },
+        {
+          "meaning": "加油",
+          "action": "握拳向上"
+        },
+        {
+          "meaning": "晚安",
+          "action": "抱枕闭眼"
+        },
+        {
+          "meaning": "好呀",
+          "action": "轻快点头"
+        },
+        {
+          "meaning": "等等",
+          "action": "伸掌示意停一下"
+        },
+        {
+          "meaning": "拜托",
+          "action": "期待眼神双手合十"
+        },
+        {
+          "meaning": "来了",
+          "action": "小跑挥手"
+        },
+        {
+          "meaning": "辛苦啦",
+          "action": "递一杯水"
+        },
+        {
+          "meaning": "好困",
+          "action": "捂嘴打哈欠"
+        },
+        {
+          "meaning": "溜了",
+          "action": "侧身跑走回头看"
+        }
+      ]
+    }
+  ]
+}

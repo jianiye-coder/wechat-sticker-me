@@ -30,6 +30,25 @@ git clone https://github.com/jianiye-coder/wechat-sticker-studio.git ~/.codex/sk
 
 如果设置了 `CODEX_HOME`，请使用其下的 `skills/wechat-sticker-studio` 目录。安装后若当前聊天未发现 skill，重新打开聊天或应用。
 
+## 可选模板
+
+| 模板 | 特色 |
+|---|---|
+| 软萌日常 | 温柔可爱，通用聊天 |
+| 情绪小剧场 | 夸张反应，朋友群日常 |
+| 冷脸吐槽 | 极简冷幽默 |
+| 打工日常 | 收到、开会、摸鱼、下班 |
+| 甜甜陪伴 | 亲昵、贴贴、想念 |
+| 手帐慢生活 | 手绘线条，喝茶、晒太阳 |
+| 黏土小情绪 | 圆润立体，丰富小情绪 |
+| 像素日常 | 复古像素，简短回应 |
+
+每种含16项可编辑选题、具体动作、3张试稿建议及封面横幅方向。这些是文字配方，不是预生成图片；数量仍需按实际投稿页核实。画风和文案可以混搭，例如：
+
+> 用 $wechat-sticker-studio，选打工日常模板，画风换成黏土，用我的照片，先做三张试稿。
+
+模板选项见 [模板指南](references/templates.md)，数据见 [catalog.json](templates/catalog.json)。
+
 ## 开始使用
 
 上传你的照片，再发送：
