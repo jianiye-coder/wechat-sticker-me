@@ -43,338 +43,6 @@
   },
   "templates": [
     {
-      "id": "soft-daily",
-      "name": "软萌日常",
-      "style": "line-person",
-      "pack": "daily",
-      "tone": "简笔小人，温柔亲切，依靠肢体而非精致五官表达",
-      "title_example": "小情绪营业中",
-      "description_example": "把每天的小情绪装进聊天框，软萌日常陪你聊天。",
-      "cover_direction": "完整细线小人张开长手臂，发型和服装只留辨识锚点，无文字",
-      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
-      "trial": [
-        "开心",
-        "生气",
-        "疑惑"
-      ],
-      "stickers": [
-        {
-          "meaning": "开心",
-          "action": "挥手露齿笑"
-        },
-        {
-          "meaning": "收到",
-          "action": "点头竖拇指"
-        },
-        {
-          "meaning": "抱抱",
-          "action": "张开双臂"
-        },
-        {
-          "meaning": "谢谢",
-          "action": "微微鞠躬双手合十"
-        },
-        {
-          "meaning": "疑惑",
-          "action": "歪头托腮"
-        },
-        {
-          "meaning": "生气",
-          "action": "抱臂鼓脸"
-        },
-        {
-          "meaning": "委屈",
-          "action": "低头撇嘴"
-        },
-        {
-          "meaning": "加油",
-          "action": "握拳向上"
-        },
-        {
-          "meaning": "晚安",
-          "action": "抱枕闭眼"
-        },
-        {
-          "meaning": "好呀",
-          "action": "轻快点头"
-        },
-        {
-          "meaning": "等等",
-          "action": "伸掌示意停一下"
-        },
-        {
-          "meaning": "拜托",
-          "action": "期待眼神双手合十"
-        },
-        {
-          "meaning": "来了",
-          "action": "小跑挥手"
-        },
-        {
-          "meaning": "辛苦啦",
-          "action": "递一杯水"
-        },
-        {
-          "meaning": "好困",
-          "action": "捂嘴打哈欠"
-        },
-        {
-          "meaning": "溜了",
-          "action": "侧身跑走回头看"
-        }
-      ],
-      "example_image": "assets/examples/soft-daily.png"
-    },
-    {
-      "id": "drama-club",
-      "name": "情绪小剧场",
-      "style": "elastic-comic",
-      "pack": "drama",
-      "tone": "弹性变形、全身夸张动作，粗笔漫画反差",
-      "title_example": "今天也很有戏",
-      "description_example": "把每天的小情绪装进聊天框，情绪小剧场陪你聊天。",
-      "cover_direction": "角色身体拉长成惊叹号状，粗笔轮廓，平涂点色，无文字",
-      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
-      "trial": [
-        "开心",
-        "生气",
-        "疑惑"
-      ],
-      "stickers": [
-        {
-          "meaning": "震惊",
-          "action": "双手捧脸嘴巴张大"
-        },
-        {
-          "meaning": "偷笑",
-          "action": "侧眼捂嘴"
-        },
-        {
-          "meaning": "无语",
-          "action": "半睁眼摊手"
-        },
-        {
-          "meaning": "抓狂",
-          "action": "双手抓头发"
-        },
-        {
-          "meaning": "得意",
-          "action": "叉腰抬下巴"
-        },
-        {
-          "meaning": "吃瓜",
-          "action": "抱西瓜探头"
-        },
-        {
-          "meaning": "累瘫",
-          "action": "趴桌眼神放空"
-        },
-        {
-          "meaning": "撒娇",
-          "action": "扯袖子鼓脸"
-        },
-        {
-          "meaning": "生气",
-          "action": "抱臂鼓脸"
-        },
-        {
-          "meaning": "疑惑",
-          "action": "歪头摸下巴"
-        },
-        {
-          "meaning": "抱抱",
-          "action": "张开双臂笑"
-        },
-        {
-          "meaning": "救命",
-          "action": "双手举起慌张"
-        },
-        {
-          "meaning": "不听",
-          "action": "捂住耳朵"
-        },
-        {
-          "meaning": "笑疯",
-          "action": "弯腰大笑"
-        },
-        {
-          "meaning": "我裂开",
-          "action": "抱头眼神呆滞"
-        },
-        {
-          "meaning": "溜了",
-          "action": "头发飘起急忙跑开"
-        }
-      ],
-      "example_image": "assets/examples/drama-club.png"
-    },
-    {
-      "id": "cool-replies",
-      "name": "冷脸吐槽",
-      "style": "minimal",
-      "pack": "deadpan",
-      "tone": "克制冷幽默，不使用辱骂语气",
-      "title_example": "脸上写着随便",
-      "description_example": "把每天的小情绪装进聊天框，冷脸吐槽陪你聊天。",
-      "cover_direction": "狭长几何头部和细长身体，横线眼直嘴，克制配色，无腮红或装饰，无文字",
-      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
-      "trial": [
-        "开心",
-        "生气",
-        "疑惑"
-      ],
-      "stickers": [
-        {
-          "meaning": "嗯",
-          "action": "面无表情点头"
-        },
-        {
-          "meaning": "行吧",
-          "action": "无奈歪头"
-        },
-        {
-          "meaning": "就这",
-          "action": "半睁眼挑眉"
-        },
-        {
-          "meaning": "随便",
-          "action": "单手摊开"
-        },
-        {
-          "meaning": "不想动",
-          "action": "躺平看天"
-        },
-        {
-          "meaning": "已读",
-          "action": "看手机抬眼"
-        },
-        {
-          "meaning": "无语",
-          "action": "平嘴看向一侧"
-        },
-        {
-          "meaning": "懂了",
-          "action": "扶额点头"
-        },
-        {
-          "meaning": "等等",
-          "action": "伸手挡住"
-        },
-        {
-          "meaning": "不懂",
-          "action": "双手摊开"
-        },
-        {
-          "meaning": "挺好",
-          "action": "面无表情竖拇指"
-        },
-        {
-          "meaning": "算了",
-          "action": "摆手转身"
-        },
-        {
-          "meaning": "饿了",
-          "action": "抱碗看空碗"
-        },
-        {
-          "meaning": "困了",
-          "action": "眼皮垂下抱枕"
-        },
-        {
-          "meaning": "谢谢",
-          "action": "略低头双手接礼物"
-        },
-        {
-          "meaning": "走了",
-          "action": "背身挥手"
-        }
-      ],
-      "example_image": "assets/examples/cool-replies.png"
-    },
-    {
-      "id": "office-life",
-      "name": "打工日常",
-      "style": "photocopy-meme",
-      "pack": "work",
-      "tone": "黑白写实脸与简笔身体拼贴，疲惫和敷衍的职场反应",
-      "title_example": "打工电量不足",
-      "description_example": "把每天的小情绪装进聊天框，打工日常陪你聊天。",
-      "cover_direction": "灰阶本人脸配简笔职场身体，完整拼贴构图，无文字",
-      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
-      "trial": [
-        "开心",
-        "生气",
-        "疑惑"
-      ],
-      "stickers": [
-        {
-          "meaning": "收到",
-          "action": "坐桌前竖拇指"
-        },
-        {
-          "meaning": "在忙",
-          "action": "盯屏幕敲键盘"
-        },
-        {
-          "meaning": "稍等",
-          "action": "一手打字一手示意稍等"
-        },
-        {
-          "meaning": "好的",
-          "action": "点头拿笔"
-        },
-        {
-          "meaning": "开会",
-          "action": "举起记事本"
-        },
-        {
-          "meaning": "改好了",
-          "action": "递出完成的文稿"
-        },
-        {
-          "meaning": "下班",
-          "action": "合上电脑拎包"
-        },
-        {
-          "meaning": "摸鱼",
-          "action": "缩在椅子里看手机"
-        },
-        {
-          "meaning": "加油",
-          "action": "握拳挺直身体"
-        },
-        {
-          "meaning": "辛苦了",
-          "action": "递水杯"
-        },
-        {
-          "meaning": "好困",
-          "action": "扶着咖啡杯打哈欠"
-        },
-        {
-          "meaning": "没电了",
-          "action": "趴桌放空"
-        },
-        {
-          "meaning": "再想想",
-          "action": "咬笔思考"
-        },
-        {
-          "meaning": "谢谢",
-          "action": "抱文稿鞠躬"
-        },
-        {
-          "meaning": "周五啦",
-          "action": "开心举双手"
-        },
-        {
-          "meaning": "休息中",
-          "action": "躺椅抱枕放松"
-        }
-      ],
-      "example_image": "assets/examples/office-life.png"
-    },
-    {
       "id": "sweet-company",
       "name": "甜甜陪伴",
       "style": "chibi",
@@ -705,6 +373,338 @@
         }
       ],
       "example_image": "assets/examples/pixel-daily.png"
+    },
+    {
+      "id": "soft-daily",
+      "name": "软萌日常",
+      "style": "chibi",
+      "pack": "daily",
+      "tone": "圆润软萌、自然亲切，适合朋友家人的日常回应",
+      "title_example": "小情绪营业中",
+      "description_example": "把每天的小情绪装进聊天框，软萌日常陪你聊天。",
+      "cover_direction": "完整圆润Q版人物招手微笑，自然眼睛、柔和阴影和少量爱心，无文字；不要细长火柴人身体。",
+      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
+      "trial": [
+        "开心",
+        "生气",
+        "疑惑"
+      ],
+      "stickers": [
+        {
+          "meaning": "开心",
+          "action": "挥手露齿笑"
+        },
+        {
+          "meaning": "收到",
+          "action": "点头竖拇指"
+        },
+        {
+          "meaning": "抱抱",
+          "action": "张开双臂"
+        },
+        {
+          "meaning": "谢谢",
+          "action": "微微鞠躬双手合十"
+        },
+        {
+          "meaning": "疑惑",
+          "action": "歪头托腮"
+        },
+        {
+          "meaning": "生气",
+          "action": "抱臂鼓脸"
+        },
+        {
+          "meaning": "委屈",
+          "action": "低头撇嘴"
+        },
+        {
+          "meaning": "加油",
+          "action": "握拳向上"
+        },
+        {
+          "meaning": "晚安",
+          "action": "抱枕闭眼"
+        },
+        {
+          "meaning": "好呀",
+          "action": "轻快点头"
+        },
+        {
+          "meaning": "等等",
+          "action": "伸掌示意停一下"
+        },
+        {
+          "meaning": "拜托",
+          "action": "期待眼神双手合十"
+        },
+        {
+          "meaning": "来了",
+          "action": "小跑挥手"
+        },
+        {
+          "meaning": "辛苦啦",
+          "action": "递一杯水"
+        },
+        {
+          "meaning": "好困",
+          "action": "捂嘴打哈欠"
+        },
+        {
+          "meaning": "溜了",
+          "action": "侧身跑走回头看"
+        }
+      ],
+      "example_image": "assets/examples/soft-daily.png"
+    },
+    {
+      "id": "drama-club",
+      "name": "情绪小剧场",
+      "style": "elastic-comic",
+      "pack": "drama",
+      "tone": "弹性变形、全身夸张动作，粗笔漫画反差",
+      "title_example": "今天也很有戏",
+      "description_example": "把每天的小情绪装进聊天框，情绪小剧场陪你聊天。",
+      "cover_direction": "角色身体拉长成惊叹号状，粗笔轮廓，平涂点色，无文字",
+      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
+      "trial": [
+        "开心",
+        "生气",
+        "疑惑"
+      ],
+      "stickers": [
+        {
+          "meaning": "震惊",
+          "action": "双手捧脸嘴巴张大"
+        },
+        {
+          "meaning": "偷笑",
+          "action": "侧眼捂嘴"
+        },
+        {
+          "meaning": "无语",
+          "action": "半睁眼摊手"
+        },
+        {
+          "meaning": "抓狂",
+          "action": "双手抓头发"
+        },
+        {
+          "meaning": "得意",
+          "action": "叉腰抬下巴"
+        },
+        {
+          "meaning": "吃瓜",
+          "action": "抱西瓜探头"
+        },
+        {
+          "meaning": "累瘫",
+          "action": "趴桌眼神放空"
+        },
+        {
+          "meaning": "撒娇",
+          "action": "扯袖子鼓脸"
+        },
+        {
+          "meaning": "生气",
+          "action": "抱臂鼓脸"
+        },
+        {
+          "meaning": "疑惑",
+          "action": "歪头摸下巴"
+        },
+        {
+          "meaning": "抱抱",
+          "action": "张开双臂笑"
+        },
+        {
+          "meaning": "救命",
+          "action": "双手举起慌张"
+        },
+        {
+          "meaning": "不听",
+          "action": "捂住耳朵"
+        },
+        {
+          "meaning": "笑疯",
+          "action": "弯腰大笑"
+        },
+        {
+          "meaning": "我裂开",
+          "action": "抱头眼神呆滞"
+        },
+        {
+          "meaning": "溜了",
+          "action": "头发飘起急忙跑开"
+        }
+      ],
+      "example_image": "assets/examples/drama-club.png"
+    },
+    {
+      "id": "cool-replies",
+      "name": "冷脸吐槽",
+      "style": "minimal",
+      "pack": "deadpan",
+      "tone": "克制冷幽默，不使用辱骂语气",
+      "title_example": "脸上写着随便",
+      "description_example": "把每天的小情绪装进聊天框，冷脸吐槽陪你聊天。",
+      "cover_direction": "狭长几何头部和细长身体，横线眼直嘴，克制配色，无腮红或装饰，无文字",
+      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
+      "trial": [
+        "开心",
+        "生气",
+        "疑惑"
+      ],
+      "stickers": [
+        {
+          "meaning": "嗯",
+          "action": "面无表情点头"
+        },
+        {
+          "meaning": "行吧",
+          "action": "无奈歪头"
+        },
+        {
+          "meaning": "就这",
+          "action": "半睁眼挑眉"
+        },
+        {
+          "meaning": "随便",
+          "action": "单手摊开"
+        },
+        {
+          "meaning": "不想动",
+          "action": "躺平看天"
+        },
+        {
+          "meaning": "已读",
+          "action": "看手机抬眼"
+        },
+        {
+          "meaning": "无语",
+          "action": "平嘴看向一侧"
+        },
+        {
+          "meaning": "懂了",
+          "action": "扶额点头"
+        },
+        {
+          "meaning": "等等",
+          "action": "伸手挡住"
+        },
+        {
+          "meaning": "不懂",
+          "action": "双手摊开"
+        },
+        {
+          "meaning": "挺好",
+          "action": "面无表情竖拇指"
+        },
+        {
+          "meaning": "算了",
+          "action": "摆手转身"
+        },
+        {
+          "meaning": "饿了",
+          "action": "抱碗看空碗"
+        },
+        {
+          "meaning": "困了",
+          "action": "眼皮垂下抱枕"
+        },
+        {
+          "meaning": "谢谢",
+          "action": "略低头双手接礼物"
+        },
+        {
+          "meaning": "走了",
+          "action": "背身挥手"
+        }
+      ],
+      "example_image": "assets/examples/cool-replies.png"
+    },
+    {
+      "id": "office-life",
+      "name": "打工日常",
+      "style": "photocopy-meme",
+      "pack": "work",
+      "tone": "黑白写实脸与简笔身体拼贴，疲惫和敷衍的职场反应",
+      "title_example": "打工电量不足",
+      "description_example": "把每天的小情绪装进聊天框，打工日常陪你聊天。",
+      "cover_direction": "灰阶本人脸配简笔职场身体，完整拼贴构图，无文字",
+      "banner_direction": "使用同一角色的三种不同姿态构成完整场景；背景与角色配色协调，不截断身体，不添加文字。",
+      "trial": [
+        "开心",
+        "生气",
+        "疑惑"
+      ],
+      "stickers": [
+        {
+          "meaning": "收到",
+          "action": "坐桌前竖拇指"
+        },
+        {
+          "meaning": "在忙",
+          "action": "盯屏幕敲键盘"
+        },
+        {
+          "meaning": "稍等",
+          "action": "一手打字一手示意稍等"
+        },
+        {
+          "meaning": "好的",
+          "action": "点头拿笔"
+        },
+        {
+          "meaning": "开会",
+          "action": "举起记事本"
+        },
+        {
+          "meaning": "改好了",
+          "action": "递出完成的文稿"
+        },
+        {
+          "meaning": "下班",
+          "action": "合上电脑拎包"
+        },
+        {
+          "meaning": "摸鱼",
+          "action": "缩在椅子里看手机"
+        },
+        {
+          "meaning": "加油",
+          "action": "握拳挺直身体"
+        },
+        {
+          "meaning": "辛苦了",
+          "action": "递水杯"
+        },
+        {
+          "meaning": "好困",
+          "action": "扶着咖啡杯打哈欠"
+        },
+        {
+          "meaning": "没电了",
+          "action": "趴桌放空"
+        },
+        {
+          "meaning": "再想想",
+          "action": "咬笔思考"
+        },
+        {
+          "meaning": "谢谢",
+          "action": "抱文稿鞠躬"
+        },
+        {
+          "meaning": "周五啦",
+          "action": "开心举双手"
+        },
+        {
+          "meaning": "休息中",
+          "action": "躺椅抱枕放松"
+        }
+      ],
+      "example_image": "assets/examples/office-life.png"
     },
     {
       "id": "abstract-chaos",

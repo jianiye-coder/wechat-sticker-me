@@ -64,27 +64,27 @@ git clone https://github.com/jianiye-coder/wechat-sticker-me.git ~/.codex/skills
 
 | 模板 | 特色 |
 |---|---|
-| 软萌日常 | 极简线条小人，细长手脚与温柔动作 |
-| 情绪小剧场 | 弹性身体、粗笔漫画、夸张全身动作 |
-| 冷脸吐槽 | 几何长脸、横线眼、克制平涂与冷幽默 |
-| 打工日常 | 灰阶脸部特写＋简笔身体，黑白职场梗图 |
 | 甜甜陪伴 | 亲昵、贴贴、想念 |
 | 手帐慢生活 | 手绘线条，喝茶、晒太阳 |
 | 黏土小情绪 | 圆润立体，丰富小情绪 |
 | 像素日常 | 复古像素，简短回应 |
+| 软萌日常 | 圆润Q版、自然大眼与柔和阴影 |
+| 情绪小剧场 | 弹性身体、粗笔漫画、夸张全身动作 |
+| 冷脸吐槽 | 几何长脸、横线眼、克制平涂与冷幽默 |
+| 打工日常 | 灰阶脸部特写＋简笔身体，黑白职场梗图 |
 | 精神离线 | 抓狂、融化、灵魂出走，抽象暴走涂鸦 |
 
 下面是每种模板的实际生成示例，每张展示4个表情。示例统一使用虚构人物，正式制作会按你的照片、发型、服装和口头禅定制。图片由 AI 生成，白色或米白背景用于 README 展示，不是直接投稿的透明素材。
 
-| 软萌日常 · `soft-daily` | 情绪小剧场 · `drama-club` |
+| 甜甜陪伴 · `sweet-company` | 手帐慢生活 · `cozy-journal` |
 | :---: | :---: |
-| ![软萌日常：开心、收到、抱抱、谢谢](assets/examples/soft-daily.png) | ![情绪小剧场：震惊、抓狂、吃瓜、溜了](assets/examples/drama-club.png) |
-| **冷脸吐槽 · `cool-replies`** | **打工日常 · `office-life`** |
-| ![冷脸吐槽：行吧、无语、不想动、走了](assets/examples/cool-replies.png) | ![打工日常：收到、在忙、摸鱼、下班](assets/examples/office-life.png) |
-| **甜甜陪伴 · `sweet-company`** | **手帐慢生活 · `cozy-journal`** |
 | ![甜甜陪伴：想你、爱你、贴贴、晚安](assets/examples/sweet-company.png) | ![手帐慢生活：喝茶、晒太阳、散步去、歇一会](assets/examples/cozy-journal.png) |
 | **黏土小情绪 · `clay-moods`** | **像素日常 · `pixel-daily`** |
 | ![黏土小情绪：得意、救命、累瘫、撒娇](assets/examples/clay-moods.png) | ![像素日常：开心、等等、加油、溜了](assets/examples/pixel-daily.png) |
+| **软萌日常 · `soft-daily`** | **情绪小剧场 · `drama-club`** |
+| ![软萌日常：开心、收到、抱抱、谢谢](assets/examples/soft-daily.png) | ![情绪小剧场：震惊、抓狂、吃瓜、溜了](assets/examples/drama-club.png) |
+| **冷脸吐槽 · `cool-replies`** | **打工日常 · `office-life`** |
+| ![冷脸吐槽：行吧、无语、不想动、走了](assets/examples/cool-replies.png) | ![打工日常：收到、在忙、摸鱼、下班](assets/examples/office-life.png) |
 
 ### 精神离线 · `abstract-chaos`
 
@@ -100,7 +100,7 @@ git clone https://github.com/jianiye-coder/wechat-sticker-me.git ~/.codex/skills
 
 模板选项见 [模板指南](references/templates.md)，数据见 [catalog.json](templates/catalog.json)。
 
-模板既区分聊天场景，也区分视觉语言：简笔、弹性漫画、几何扁平、黑白拼贴，不只是在同一套Q版里更换文字。每套依然可以保留你自己的发型、眼镜和服装等特点。
+模板既区分聊天场景，也区分视觉语言：圆润Q版、弹性漫画、几何扁平、黑白拼贴，不只是在同一套Q版里更换文字。每套依然可以保留你自己的发型、眼镜和服装等特点。
 
 ## 开始使用
 
