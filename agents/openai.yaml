@@ -1,0 +1,4 @@
+interface:
+  display_name: "微信表情工作室"
+  short_description: "从创意讨论到个人表情生成、修改、素材检查及微信投稿的完整流程"
+  default_prompt: "用 $wechat-sticker-studio 帮我从创意开始制作一套微信表情，修改定稿并准备上传审核。"
