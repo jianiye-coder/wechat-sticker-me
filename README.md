@@ -48,6 +48,7 @@ git clone https://github.com/jianiye-coder/wechat-sticker-me.git ~/.codex/skills
 | 手帐慢生活 | 手绘线条，喝茶、晒太阳 |
 | 黏土小情绪 | 圆润立体，丰富小情绪 |
 | 像素日常 | 复古像素，简短回应 |
+| 精神离线 | 抓狂、融化、灵魂出走，抽象暴走涂鸦 |
 
 下面是每种模板的实际生成示例，每张展示4个表情。示例统一使用虚构人物，正式制作会按你的照片、发型、服装和口头禅定制。图片由 AI 生成，米白背景用于 README 展示，不是直接投稿的透明素材。
 
@@ -60,6 +61,14 @@ git clone https://github.com/jianiye-coder/wechat-sticker-me.git ~/.codex/skills
 | ![甜甜陪伴：想你、爱你、贴贴、晚安](assets/examples/sweet-company.png) | ![手帐慢生活：喝茶、晒太阳、散步去、歇一会](assets/examples/cozy-journal.png) |
 | **黏土小情绪 · `clay-moods`** | **像素日常 · `pixel-daily`** |
 | ![黏土小情绪：得意、救命、累瘫、撒娇](assets/examples/clay-moods.png) | ![像素日常：开心、等等、加油、溜了](assets/examples/pixel-daily.png) |
+
+### 精神离线 · `abstract-chaos`
+
+抓狂不是只皱眉：把情绪画成融化的身体、打结的脑袋和飘走的灵魂。身份特征保留，动作和形状大胆放飞。
+
+![精神离线：啊啊啊、融化了、灵魂出走、脑内打结](assets/examples/abstract-chaos.png)
+
+> 用 $wechat-sticker-studio，选精神离线模板，按我的照片定制，越抽象越好，先试啊啊啊、融化了和脑内打结。
 
 每种含16项可编辑选题、具体动作、3张试稿建议及封面横幅方向。模板提供可编辑的完整文字配方，上图为4张效果示例；完整数量仍需按实际投稿页核实。画风和文案可以混搭，例如：
 

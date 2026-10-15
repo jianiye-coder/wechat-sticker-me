@@ -9,7 +9,7 @@ class TemplateTests(unittest.TestCase):
     def test_all_presets(self):
         import json
         catalog=json.loads(t.CATALOG.read_text(encoding='utf-8'))
-        self.assertEqual(len(catalog['templates']),8)
+        self.assertEqual(len(catalog['templates']),9)
         for preset in catalog['templates']:
             brief=t.instantiate(preset['id'])
             self.assertEqual(len(brief['stickers']),16)
