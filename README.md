@@ -10,6 +10,12 @@
 - 检查尺寸、透明背景、文件大小及安全边距，打包素材与上传文案。
 - 在有可用浏览器工具且用户授权后，协助微信表情开放平台上传和提交；依据实际审核反馈继续修改。
 
+## 使用流程改进
+
+新角色默认先做三张试稿，分别验证像不像本人和表情好不好用；已有认可形象可直接继续。每次打包会生成离线 `review.html`，同页查看名称、简介、全部表情与封面横幅，并对比PNG/GIF深色边缘。拆图有切线风险报告，素材检查会提示完全重复的图；这些检查不能代替视觉审查。
+
+收到审核退回截图后，按原文建立逐张修改清单，保留未受影响的定稿，重新导出完整物料。支持 Windows、macOS、Linux 的标准 Python 路径用法；尚未声称完成所有系统和真人投稿流程实测。
+
 ## 安装到 Codex
 
 把此 GitHub 仓库链接发给 Codex，并说：
@@ -63,3 +69,13 @@ python scripts/prepare_assets.py --help
 - [references/submission.md](references/submission.md)：物料规格与输入清单。
 - [references/upload.md](references/upload.md)：上传、审核与失败恢复。
 - [scripts/prepare_assets.py](scripts/prepare_assets.py)：本地素材处理工具。
+
+## 本地测试
+
+在项目虚拟环境安装 `requirements.txt` 后运行：
+
+```sh
+python -m unittest discover -s tests
+```
+
+测试覆盖完整打包、重复图提示、真实透明检查、切线风险、空图、拒绝覆盖和横幅比例。测试使用合成图片，不包含个人照片。
