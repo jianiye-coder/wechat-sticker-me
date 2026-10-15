@@ -1,10 +1,16 @@
-# 微信表情工作室 · WeChat Sticker Studio
+# Sticker Me · 定制你的微信表情
 
-一个可复用的 Codex Skill：从 brainstorm、创建个人微信表情、修改定稿，到生成投稿物料、上传和跟进审核。
+把你自己的形象，变成只属于你的微信表情包。
+
+上传一张照片，选择喜欢的画风，再加入你的口头禅、常用动作和小情绪。用这个 Codex Skill，从创意、试稿到修改定稿，定制一套像你、也符合你聊天习惯的表情，并准备微信投稿素材。
+
+**Your face. Your style. Your stickers.**
 
 ## 可以做什么
 
-- 根据照片、原创角色或已有表情，讨论画风、名称与聊天场景。
+- **定制你的形象**：保留照片里的发型、脸部特点和服装，也能按你的偏好调整。
+- **定制你的表达**：用你的口头禅、动作和聊天习惯，替换模板配字与场景。
+- **定制你的画风**：Q版、漫画、黏土、手绘、像素等自由搭配。
 - 生成统一形象的表情，按反馈修改，并复用要求保留的单图。
 - 拆分规则网格合集，导出透明 PNG / 静态 GIF、缩略图、封面、图标与横幅。
 - 检查尺寸、透明背景、文件大小及安全边距，打包素材与上传文案。
@@ -25,7 +31,7 @@
 也可以手动克隆到自己的 skills 目录：
 
 ```sh
-git clone https://github.com/jianiye-coder/wechat-sticker-studio.git ~/.codex/skills/wechat-sticker-studio
+git clone https://github.com/jianiye-coder/wechat-sticker-me.git ~/.codex/skills/wechat-sticker-studio
 ```
 
 如果设置了 `CODEX_HOME`，请使用其下的 `skills/wechat-sticker-studio` 目录。安装后若当前聊天未发现 skill，重新打开聊天或应用。
@@ -98,3 +104,7 @@ python -m unittest discover -s tests
 ```
 
 测试覆盖完整打包、重复图提示、真实透明检查、切线风险、空图、拒绝覆盖和横幅比例。测试使用合成图片，不包含个人照片。
+
+## License
+
+本仓库的代码与 Skill 文档采用 [MIT License](LICENSE)，可使用、修改和分享，请保留许可与版权声明。用户上传的照片、第三方素材和各自生成的表情不因本仓库许可而自动获得授权。
