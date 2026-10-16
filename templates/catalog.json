@@ -39,6 +39,10 @@
     "photocopy-meme": {
       "name": "黑白职场拼贴",
       "prompt": "原创或用户授权的本人脸部特写作灰阶半调处理，大头拼上粗线条简笔身体，复印纸颗粒和纸边质感，黑白高对比，普通粗黑字白纸条；用疲惫和敷衍的脸与动作反差。不能直接挪用现有熊猫头脸或其他人物素材，不套Q版黄衣模板。"
+    },
+    "felt": {
+      "name": "手工毛毡玩偶",
+      "prompt": "本人变成针毡羊毛玩偶，清楚可见的绒毛纤维、布缝、针织衣物和手工不规则轮廓，黑珠眼睛、刺绣五官，定格动画布景摄影；保持发型轮廓和服装辨识度，避免黏土、塑料和光滑3D渲染。"
     }
   },
   "templates": [
@@ -880,6 +884,99 @@
         "scope": "示例配色，可替换；不覆盖用户真实发色、肤色和服装偏好"
       },
       "visual_direction": "低清抓拍、广角失真、屏幕光与闪光灯"
+    },
+    {
+      "id": "felt-self",
+      "name": "毛毡分身",
+      "style": "felt",
+      "pack": "felt-daily",
+      "tone": "软乎乎的手工玩偶，用小动作表达日常情绪",
+      "title_example": "软乎乎的我",
+      "description_example": "把自己变成一只毛毡分身，探头、抱抱，累了就软软躺平。",
+      "cover_direction": "完整毛毡玩偶探头挥手，可见羊毛纤维与针织衣服，无文字",
+      "banner_direction": "原创毛毡人物在布艺房间做不同小动作，柔光定格动画布景，无文字",
+      "trial": [
+        "探头",
+        "抱抱",
+        "躺平"
+      ],
+      "stickers": [
+        {
+          "meaning": "探头",
+          "action": "从毛毡门后歪头探出"
+        },
+        {
+          "meaning": "抱抱",
+          "action": "展开长长的毛衣袖子"
+        },
+        {
+          "meaning": "鼓掌",
+          "action": "小毛毡手碰在一起"
+        },
+        {
+          "meaning": "躺平",
+          "action": "软塌塌倒在羊毛垫子上"
+        },
+        {
+          "meaning": "开心",
+          "action": "两只脚轻轻跳起"
+        },
+        {
+          "meaning": "收到",
+          "action": "小手举高竖拇指"
+        },
+        {
+          "meaning": "谢谢",
+          "action": "双手放胸前鞠躬"
+        },
+        {
+          "meaning": "困困",
+          "action": "抱着小枕头打哈欠"
+        },
+        {
+          "meaning": "加油",
+          "action": "毛衣袖子里的手握拳"
+        },
+        {
+          "meaning": "委屈",
+          "action": "缩进领口撇嘴"
+        },
+        {
+          "meaning": "疑惑",
+          "action": "头歪向一边，单手挠头"
+        },
+        {
+          "meaning": "生气",
+          "action": "双手叉腰鼓起脸"
+        },
+        {
+          "meaning": "拜托",
+          "action": "小手合十仰头期待"
+        },
+        {
+          "meaning": "来了",
+          "action": "迈着毛毡短腿小跑"
+        },
+        {
+          "meaning": "晚安",
+          "action": "蜷在小毯子里闭眼"
+        },
+        {
+          "meaning": "再见",
+          "action": "背小包回头挥手"
+        }
+      ],
+      "palette_example": {
+        "name": "珊瑚橘湖水绿",
+        "colors": [
+          "#EF8D6B",
+          "#64A79B",
+          "#F6EBDD"
+        ],
+        "scope": "示例配色，可替换，不覆盖用户真实外貌偏好"
+      },
+      "visual_direction": "针毡羊毛纤维、黑珠眼、刺绣与布缝，柔软的定格动画玩偶",
+      "example_image": "assets/examples/felt-self.png"
     }
   ]
 }

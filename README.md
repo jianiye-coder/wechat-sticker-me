@@ -73,6 +73,7 @@ git clone https://github.com/jianiye-coder/wechat-sticker-me.git ~/.codex/skills
 | 冷脸吐槽 | 几何长脸、横线眼、克制平涂与冷幽默 |
 | 打工日常 | 灰阶脸部特写＋简笔身体，黑白职场梗图 |
 | 精神离线 | 低清抓拍、怼脸失真、微妙表情与短句补刀 |
+| 毛毡分身 | 羊毛纤维、刺绣与针织，柔软手工玩偶 |
 
 下面是每种模板的实际生成示例，每张展示4个表情。示例采用不同的虚构人物、服装与配色，展示可以定制的范围；正式制作会按你的照片、发型、服装和口头禅定制，不自动沿用示例人物的发色或肤色。图片由 AI 生成，彩色背景和部分低清质感用于 README 展示，不是直接投稿的透明素材。
 
@@ -85,8 +86,8 @@ git clone https://github.com/jianiye-coder/wechat-sticker-me.git ~/.codex/skills
 | ![软萌日常：开心、收到、抱抱、谢谢](assets/examples/soft-daily.png) | ![情绪小剧场：震惊、抓狂、吃瓜、溜了](assets/examples/drama-club.png) |
 | **冷脸吐槽 · `cool-replies`** | **打工日常 · `office-life`** |
 | ![冷脸吐槽：行吧、无语、不想动、走了](assets/examples/cool-replies.png) | ![打工日常：收到、在忙、摸鱼、下班](assets/examples/office-life.png) |
-| **精神离线 · `abstract-chaos`** | |
-| ![精神离线：你没事吧、脑干缺失、我好快乐、真服了](assets/examples/abstract-chaos.png) | |
+| **精神离线 · `abstract-chaos`** | **毛毡分身 · `felt-self`** |
+| ![精神离线：你没事吧、脑干缺失、我好快乐、真服了](assets/examples/abstract-chaos.png) | ![毛毡分身：探头、抱抱、鼓掌、躺平](assets/examples/felt-self.png) |
 
 每种含16项可编辑选题、具体动作、3张试稿建议及封面横幅方向。模板提供可编辑的完整文字配方，上图为4张效果示例；完整数量仍需按实际投稿页核实。画风和文案可以混搭，例如：
 
