@@ -2,7 +2,7 @@
   "styles": {
     "chibi": {
       "name": "软萌Q版",
-      "prompt": "大头小身、柔和暖色、自然深色眼睛、干净线条和轻柔阴影；保留参考人物的辨识特征，不把所有人物变成同一张动漫脸。"
+      "prompt": "大头小身、由用户或模板决定的配色、自然深色眼睛、干净线条和轻柔阴影；保留参考人物的辨识特征，不把所有人物变成同一张动漫脸。"
     },
     "comic": {
       "name": "夸张漫画",
@@ -10,7 +10,7 @@
     },
     "minimal": {
       "name": "极简冷脸",
-      "prompt": "极简几何成人漫画，狭长头型、横线眼、直嘴、细长身材，灰绿与暗赭色平涂，大量留白，简洁小号文字。无腮红、爱心、星星、大眼睛、白色贴纸边和立体阴影；保持参考人物的发型轮廓等辨识锚点。"
+      "prompt": "极简几何成人漫画，狭长头型、横线眼、直嘴、细长身材，克制双色平涂，配色可由用户指定，大量留白，简洁小号文字。无腮红、爱心、星星、大眼睛、白色贴纸边和立体阴影；保持参考人物的发型轮廓等辨识锚点。"
     },
     "doodle": {
       "name": "手帐涂鸦",
@@ -123,7 +123,17 @@
           "action": "抱着心形靠垫安静坐下"
         }
       ],
-      "example_image": "assets/examples/sweet-company.png"
+      "example_image": "assets/examples/sweet-company.png",
+      "palette_example": {
+        "name": "樱桃粉红",
+        "colors": [
+          "#F5A3C7",
+          "#C91D43",
+          "#FFF3F7"
+        ],
+        "scope": "示例配色，可替换；不覆盖用户真实发色、肤色和服装偏好"
+      },
+      "visual_direction": "复古平涂丝网印刷，圆润图形和樱桃红手写字"
     },
     {
       "id": "cozy-journal",
@@ -206,7 +216,17 @@
           "action": "回头挥手"
         }
       ],
-      "example_image": "assets/examples/cozy-journal.png"
+      "example_image": "assets/examples/cozy-journal.png",
+      "palette_example": {
+        "name": "鼠尾草与薰衣草",
+        "colors": [
+          "#9BAF91",
+          "#AC98C7",
+          "#F4F0E8"
+        ],
+        "scope": "示例配色，可替换；不覆盖用户真实发色、肤色和服装偏好"
+      },
+      "visual_direction": "水彩铅笔、植物手帐、半透明笔触"
     },
     {
       "id": "clay-moods",
@@ -289,7 +309,17 @@
           "action": "头发飘起急忙跑开"
         }
       ],
-      "example_image": "assets/examples/clay-moods.png"
+      "example_image": "assets/examples/clay-moods.png",
+      "palette_example": {
+        "name": "薄荷蓝与钴蓝紫",
+        "colors": [
+          "#44C5D5",
+          "#2846CE",
+          "#B59AE9"
+        ],
+        "scope": "示例配色，可替换；不覆盖用户真实发色、肤色和服装偏好"
+      },
+      "visual_direction": "手捏黏土，指纹质感，圆润立体"
     },
     {
       "id": "pixel-daily",
@@ -372,7 +402,18 @@
           "action": "侧身跑走回头看"
         }
       ],
-      "example_image": "assets/examples/pixel-daily.png"
+      "example_image": "assets/examples/pixel-daily.png",
+      "palette_example": {
+        "name": "霓虹街机",
+        "colors": [
+          "#10152F",
+          "#B9F52A",
+          "#EC28AF",
+          "#25D7EB"
+        ],
+        "scope": "示例配色，可替换；不覆盖用户真实发色、肤色和服装偏好"
+      },
+      "visual_direction": "深色背景、荧光像素、方块文字"
     },
     {
       "id": "soft-daily",
@@ -455,7 +496,17 @@
           "action": "侧身跑走回头看"
         }
       ],
-      "example_image": "assets/examples/soft-daily.png"
+      "example_image": "assets/examples/soft-daily.png",
+      "palette_example": {
+        "name": "冰蓝云朵",
+        "colors": [
+          "#B8DCFA",
+          "#FFFFFF",
+          "#6C78BC"
+        ],
+        "scope": "示例配色，可替换；不覆盖用户真实发色、肤色和服装偏好"
+      },
+      "visual_direction": "粉彩水粉软萌Q版，轻盈柔软轮廓"
     },
     {
       "id": "drama-club",
@@ -538,7 +589,17 @@
           "action": "头发飘起急忙跑开"
         }
       ],
-      "example_image": "assets/examples/drama-club.png"
+      "example_image": "assets/examples/drama-club.png",
+      "palette_example": {
+        "name": "红紫青撞色",
+        "colors": [
+          "#E04439",
+          "#763CA4",
+          "#1BA8A1"
+        ],
+        "scope": "示例配色，可替换；不覆盖用户真实发色、肤色和服装偏好"
+      },
+      "visual_direction": "粗黑线弹性漫画，红紫青平涂"
     },
     {
       "id": "cool-replies",
@@ -621,7 +682,17 @@
           "action": "背身挥手"
         }
       ],
-      "example_image": "assets/examples/cool-replies.png"
+      "example_image": "assets/examples/cool-replies.png",
+      "palette_example": {
+        "name": "锈橙炭灰",
+        "colors": [
+          "#B86A3D",
+          "#333638",
+          "#E2E2DF"
+        ],
+        "scope": "示例配色，可替换；不覆盖用户真实发色、肤色和服装偏好"
+      },
+      "visual_direction": "几何扁平、细长身材、克制字体"
     },
     {
       "id": "office-life",
@@ -704,7 +775,17 @@
           "action": "躺椅抱枕放松"
         }
       ],
-      "example_image": "assets/examples/office-life.png"
+      "example_image": "assets/examples/office-life.png",
+      "palette_example": {
+        "name": "复印黑白与珊瑚红",
+        "colors": [
+          "#161616",
+          "#FFFFFF",
+          "#FC6559"
+        ],
+        "scope": "示例配色，可替换；不覆盖用户真实发色、肤色和服装偏好"
+      },
+      "visual_direction": "黑白复印拼贴，少量珊瑚红胶带点色"
     },
     {
       "id": "abstract-chaos",
@@ -787,7 +868,18 @@
           "action": "低头塌肩，镜头从下方捕捉疲惫眼神"
         }
       ],
-      "example_image": "assets/examples/abstract-chaos.png"
+      "example_image": "assets/examples/abstract-chaos.png",
+      "palette_example": {
+        "name": "紫发青衣与异色灯光",
+        "colors": [
+          "#8337B8",
+          "#2B9D9A",
+          "#418DB9",
+          "#CD5096"
+        ],
+        "scope": "示例配色，可替换；不覆盖用户真实发色、肤色和服装偏好"
+      },
+      "visual_direction": "低清抓拍、广角失真、屏幕光与闪光灯"
     }
   ]
 }

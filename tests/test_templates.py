@@ -16,6 +16,8 @@ class TemplateTests(unittest.TestCase):
             self.assertEqual(len({s['meaning'] for s in brief['stickers']}),16)
             self.assertTrue(all(s['action'] for s in brief['stickers']))
             self.assertEqual(brief['reference_images'],[])
+            self.assertGreaterEqual(len(brief['palette_example']['colors']),3)
+            self.assertTrue(brief['visual_direction'])
             self.assertEqual(brief['spec_status'],'待平台复核')
     def test_mix_style_and_content(self):
         original=t.instantiate('office-life')
